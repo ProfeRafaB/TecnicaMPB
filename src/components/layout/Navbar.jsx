@@ -6,73 +6,84 @@ const navItems = [
   { label: "Niveles", href: "#niveles" },
   { label: "Malla", href: "#malla" },
   { label: "Proyectos", href: "#proyectos" },
-  { label: "Contacto", href: "#contacto" },
 ];
 
 export default function Navbar() {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-white shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+    <>
+      {/* Navbar */}
+      <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[92%] max-w-7xl">
+        
+        {/* Glass Effect */}
+        <div className="backdrop-blur-3xl bg-white/10 border border-white/20 rounded-3xl shadow-[0_20px_60px_rgba(0,0,0,0.25)] px-8 py-4 flex items-center justify-between">
+          
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold text-gray-900">
-              Técnica en Programación
+          <a href="#inicio" className="flex items-center gap-3">
+            <div className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center">
+              <span className="text-white font-bold">TP</span>
+            </div>
+
+            <h1 className="hidden sm:block text-white font-bold text-lg">
+              Técnica Programación
             </h1>
-          </div>
+          </a>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-6">
+          <div className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
-                className="text-gray-700 hover:text-blue-600 font-medium text-sm transition"
+                className="text-white/80 hover:text-white transition"
               >
                 {item.label}
               </a>
             ))}
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Contact Button */}
+          <a
+            href="#contacto"
+            className="hidden md:block px-6 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition"
+          >
+            Contacto
+          </a>
+
+          {/* Mobile Button */}
           <button
-            className="md:hidden inline-flex items-center justify-center"
+            className="md:hidden text-white"
             onClick={() => setIsMobileOpen(!isMobileOpen)}
           >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
+            ☰
           </button>
         </div>
+      </nav>
 
-        {/* Mobile Menu */}
-        {isMobileOpen && (
-          <div className="md:hidden pb-4 space-y-2">
-            {navItems.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                className="block text-gray-700 hover:text-blue-600 py-2 font-medium transition"
-                onClick={() => setIsMobileOpen(false)}
-              >
-                {item.label}
-              </a>
-            ))}
-          </div>
-        )}
-      </div>
-    </nav>
+      {/* Mobile Menu */}
+      {isMobileOpen && (
+        <div className="fixed inset-0 bg-black/50 backdrop-blur-xl z-[60] md:hidden flex flex-col items-center justify-center gap-6">
+          {navItems.map((item) => (
+            <a
+              key={item.href}
+              href={item.href}
+              className="text-white text-2xl font-bold"
+              onClick={() => setIsMobileOpen(false)}
+            >
+              {item.label}
+            </a>
+          ))}
+
+          <a
+            href="#contacto"
+            className="px-6 py-3 bg-blue-500 text-white rounded-full"
+            onClick={() => setIsMobileOpen(false)}
+          >
+            Contacto
+          </a>
+        </div>
+      )}
+    </>
   );
 }
