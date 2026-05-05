@@ -29,7 +29,7 @@ export default function Navbar() {
         }
       `}</style>
       {/* Navbar */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 flex justify-center animate-fade-in-down">
+      <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center animate-fade-in-down">
         <div className="flex items-center justify-between h-20 px-6 w-full max-w-7xl  gap-20">
 
           {/* Logo */}
@@ -56,15 +56,7 @@ export default function Navbar() {
             ))}
           </div>
 
-          {/* Contact Button */}
-          {/* <a
-            href="#contacto"
-            className="px-15 py-10 m-10 bg-green-500 text-white text-1xl rounded-md hover:bg-green-600 transition"
-          >
-            Contacto
-          </a> */}
-
-          {/* Mobile Button */}
+       
           <button
             className="md:hidden text-white text-2xl"
             onClick={() => setIsMobileOpen(!isMobileOpen)}
