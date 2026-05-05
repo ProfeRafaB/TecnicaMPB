@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black relative">
       {/* Fondo FloatingLines */}
-      <div className="absolute inset-0 w-full h-screen pointer-events-none">
+      {/* <div className="absolute inset-0 w-full h-screen pointer-events-none">
         <FloatingLines
           enabledWaves={["top", "middle", "bottom"]}
           lineCount={8}
@@ -27,7 +27,7 @@ export default function Home() {
           gradientMid="#25d83a"
           gradientEnd="#c5df1c"
         />
-      </div>
+      </div> */}
 
       {/* Contenido encima */}
       <div className="relative z-10">

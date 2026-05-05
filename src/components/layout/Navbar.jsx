@@ -13,20 +13,33 @@ export default function Navbar() {
 
   return (
     <>
+      <style>{`
+        @keyframes fadeInDown {
+          from {
+            opacity: 0;
+            transform: translateY(-30px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        .animate-fade-in-down {
+          animation: fadeInDown 0.8s ease-out forwards;
+        }
+      `}</style>
       {/* Navbar */}
-      <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[92%] max-w-7xl">
-        
-        {/* Glass Effect */}
-        <div className="backdrop-blur-3xl bg-white/10 border border-white/20 rounded-3xl shadow-[0_20px_60px_rgba(0,0,0,0.25)] px-8 py-4 flex items-center justify-between">
-          
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 flex justify-center animate-fade-in-down">
+        <div className="flex items-center justify-between h-20 px-6 w-full max-w-7xl  gap-20">
+
           {/* Logo */}
           <a href="#inicio" className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center">
-              <span className="text-white font-bold">TP</span>
+            <div className="w-16 h-16   flex items-center justify-center">
+              <img src="/logo.png" alt="" />
             </div>
 
             <h1 className="hidden sm:block text-white font-bold text-lg">
-              Técnica Programación
+              MPB /
             </h1>
           </a>
 
@@ -44,20 +57,21 @@ export default function Navbar() {
           </div>
 
           {/* Contact Button */}
-          <a
+          {/* <a
             href="#contacto"
-            className="hidden md:block px-6 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition"
+            className="px-15 py-10 m-10 bg-green-500 text-white text-1xl rounded-md hover:bg-green-600 transition"
           >
             Contacto
-          </a>
+          </a> */}
 
           {/* Mobile Button */}
           <button
-            className="md:hidden text-white"
+            className="md:hidden text-white text-2xl"
             onClick={() => setIsMobileOpen(!isMobileOpen)}
           >
             ☰
           </button>
+
         </div>
       </nav>
 
@@ -77,7 +91,7 @@ export default function Navbar() {
 
           <a
             href="#contacto"
-            className="px-6 py-3 bg-blue-500 text-white rounded-full"
+            className="p-60px bg-green-500 text-white rounded-md hover:bg-green-600 transition"
             onClick={() => setIsMobileOpen(false)}
           >
             Contacto
