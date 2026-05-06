@@ -11,6 +11,7 @@ import Aurora from '../components/Aurora';
 
 
 
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-black relative overflow-hidden">
@@ -41,13 +42,13 @@ export default function Home() {
         />
 
       </div>
-      <div className="absolute inset-0 z-0">
+      <div className="absolute top-0 left-0 right-0 h-screen z-0">
 
 
         <Aurora
           colorStops={["#7cff67", "#d9ff1c", " #39FF14"]}
-          blend={0.91}
-          amplitude={1.0}
+          blend={0.5}
+          amplitude={0.2}
           speed={1}
         />
       </div>
@@ -55,9 +56,21 @@ export default function Home() {
 
 
       {/* 🟢 CONTENIDO */}
-      <div className="relative z-10">
-        <Navbar />
-        <Hero />
+      <div className="relative z-10 w-full">
+        <div className="flex flex-col min-h-screen gap-10">
+          <Navbar />
+          <Hero />
+          <Sobre />
+          {/* <Niveles />
+          <Malla />
+          <Proyectos />
+          <Contacto />
+          <Footer /> */}
+
+
+
+
+        </div>
       </div>
 
     </div>

@@ -174,10 +174,16 @@ export default function Aurora(props) {
       program.uniforms.uTime.value = time * speed * 0.1;
       program.uniforms.uAmplitude.value = propsRef.current.amplitude ?? 1.0;
       program.uniforms.uBlend.value = propsRef.current.blend ?? blend;
-      const stops = propsRef.current.colorStops ?? colorStops;
-      program.uniforms.uColorStops.value = stops.map(hex => {
-        const c = new Color(hex);
-        return [c.r, c.g, c.b];
+      const stops = (propsRef.current.colorStops ?? colorStops) || ['#5227FF', '#7cff67', '#5227FF'];
+      program.uniforms.uColorStops.value = stops.filter(hex => hex && typeof hex === 'string').map(hex => {
+        try {
+          const c = new Color(hex);
+          return [c.r, c.g, c.b];
+        } catch (e) {
+          console.warn(`Invalid color: ${hex}, using fallback`);
+          const c = new Color('#5227FF');
+          return [c.r, c.g, c.b];
+        }
       });
       renderer.render({ scene: mesh });
     };
