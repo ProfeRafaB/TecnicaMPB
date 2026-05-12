@@ -6,10 +6,8 @@ export default function Hero() {
   return (
     <section
       id="inicio"
-      className="min-h-screen flex items-center justify-center  py-20 pt-20 relative border-b-2"
-      style={{
-        borderBottomColor: '#7cff67'
-      }}
+      className="min-h-screen flex items-center justify-center py-20 pt-20 relative "
+      
     >
       <style>{`
     @keyframes fadeInUp {
@@ -34,7 +32,7 @@ export default function Hero() {
     }
   `}</style>
 
-      <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-16 w-full max-w-7xl px-6 mx-auto">
+      <div className="relative z-10 w-full">
 
         {/* Sección de Texto */}
         <div className="flex flex-col items-start justify-center text-left flex-[2]">
@@ -94,7 +92,6 @@ export default function Hero() {
             showScreenshotButton={false}
           /> */}
         </div>
-
       </div>
     </section>
   );
