@@ -10,6 +10,7 @@ import LiquidEther from '../components/LiquidEther ';
 import Aurora from '../components/Aurora';
 import Galeria from '../components/sections/Galeria';
 import Profesores from '../components/sections/Profesores';
+import GridBackground from '../components/GridBackground';
 import { useInView } from '../hooks/useInView';
 import { useState, useEffect, useRef } from 'react';
 
@@ -75,9 +76,12 @@ export default function Home() {
   
   return (
     <div className="min-h-screen bg-black relative overflow-hidden">
+      {/* Fondo con cuadrícula animada */}
+      <GridBackground />
+      
       {/* Efectos - Solo Navbar + Hero */}
       <div 
-        className="fixed top-0 left-0 right-0 w-full pointer-events-none z-0 overflow-hidden" 
+        className="fixed top-0 left-0 right-0 w-full pointer-events-none z-20 overflow-hidden" 
         style={{ 
           height: 'calc(80px + 100vh)',
           opacity: heroOpacity,
@@ -86,7 +90,7 @@ export default function Home() {
       >
         <div className="absolute inset-0">
           <LiquidEther
-            colors={['#39FF14', '#5BB328', '#39FF14']}
+            colors={['rgba(255,255,255,0.5)', 'rgba(255,255,255,0.3)', 'rgba(255,255,255,0.5)']}
             mouseForce={20}
             cursorSize={100}
             isViscous
@@ -101,14 +105,14 @@ export default function Home() {
             takeoverDuration={0.25}
             autoResumeDelay={3000}
             autoRampDuration={0.6}
-            color0="#7cff67"
-            color1="#d9ff1c"
-            color2="#39FF14"
+            color0="rgba(255,255,255,0.6)"
+            color1="rgba(255,255,255,0.4)"
+            color2="rgba(255,255,255,0.5)"
           />
         </div>
         <div className="absolute inset-0">
           <Aurora
-            colorStops={["#7cff67", "#d9ff1c", "#39FF14"]}
+            colorStops={["rgba(255,255,255,0.4)", "rgba(255,255,255,0.3)", "rgba(255,255,255,0.25)"]}
             blend={0.5}
             amplitude={0.2}
             speed={1}
@@ -117,7 +121,7 @@ export default function Home() {
       </div>
 
       {/* 🟢 CONTENIDO */}
-      <div className="relative z-10 w-full">
+      <div className="relative z-30 w-full">
         <div 
           className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
           style={{

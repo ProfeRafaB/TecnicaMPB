@@ -29,13 +29,13 @@ function InstructorCard({ nombre, titulo, handle, estado, avatarUrl }) {
         borderRadius: "24px",
         padding: "2px",
         background: hovered
-          ? "linear-gradient(135deg, rgba(124, 255, 103, 0.15), rgba(217, 255, 28, 0.08))"
+          ? "linear-gradient(135deg, rgba(255,255,255,0.15), rgba(255,255,255,0.08))"
           : "linear-gradient(135deg, rgba(255,255,255,0.10), rgba(255,255,255,0.02))",
         boxShadow: hovered
-          ? "0 32px 64px rgba(124, 255, 103, 0.3), 0 0 0 2px rgba(124, 255, 103, 0.4), inset 0 1px 0 rgba(217, 255, 28, 0.2)"
+          ? "0 32px 64px rgba(255,255,255,0.12), 0 0 0 2px rgba(255,255,255,0.25), inset 0 1px 0 rgba(255,255,255,0.15)"
           : "0 16px 40px rgba(0,0,0,0.40), 0 0 0 1px rgba(255,255,255,0.06)",
-        transform: hovered ? "translateY(-8px) scale(1.01)" : "translateY(0) scale(1)",
-        transition: "transform 0.40s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.40s ease, background 0.40s ease",
+        transform: hovered ? "translateY(-10px) scale(1.02)" : "translateY(0) scale(1)",
+        transition: "transform 0.4s cubic-bezier(0.23,1,0.32,1), box-shadow 0.4s ease, background 0.4s ease",
         cursor: "pointer",
         overflow: "hidden",
       }}
@@ -182,11 +182,11 @@ function InstructorCard({ nombre, titulo, handle, estado, avatarUrl }) {
           style={{
             marginBottom: "20px",
             background: hovered
-              ? "rgba(124, 255, 103, 0.15)"
+              ? "rgba(255,255,255,0.12)"
               : "rgba(255,255,255,0.06)",
             border: hovered
-              ? "1px solid rgba(124, 255, 103, 0.5)"
-              : "1px solid rgba(255,255,255,0.10)",
+              ? "1px solid rgba(255,255,255,0.28)"
+              : "1px solid rgba(255,255,255,0.12)",
             borderRadius: "8px",
             padding: "5px 14px",
             transition: "all 0.3s ease",
@@ -196,7 +196,7 @@ function InstructorCard({ nombre, titulo, handle, estado, avatarUrl }) {
             style={{
               fontSize: "12px",
               fontWeight: 500,
-              color: hovered ? "#7cff67" : "rgba(180,180,195,0.9)",
+              color: hovered ? "rgba(255,255,255,0.95)" : "rgba(180,180,195,0.9)",
               letterSpacing: "0.04em",
               transition: "color 0.3s ease",
             }}
@@ -239,7 +239,7 @@ function InstructorCard({ nombre, titulo, handle, estado, avatarUrl }) {
             gap: "8px",
             padding: "16px 0 0",
             borderTop: hovered
-              ? "1px solid rgba(124, 255, 103, 0.3)"
+              ? "1px solid rgba(255,255,255,0.25)"
               : "1px solid rgba(255,255,255,0.08)",
             transition: "all 0.3s ease",
           }}
@@ -248,7 +248,7 @@ function InstructorCard({ nombre, titulo, handle, estado, avatarUrl }) {
             style={{
               fontSize: "12px",
               fontWeight: 600,
-              color: hovered ? "#7cff67" : "rgba(180,180,195,0.7)",
+              color: hovered ? "rgba(255,255,255,0.95)" : "rgba(180,180,195,0.7)",
               letterSpacing: "0.05em",
               textTransform: "uppercase",
               transition: "color 0.3s ease",
@@ -262,9 +262,9 @@ function InstructorCard({ nombre, titulo, handle, estado, avatarUrl }) {
               width: "4px",
               height: "4px",
               borderRadius: "50%",
-              background: hovered ? "#d9ff1c" : "rgba(255,255,255,0.4)",
+              background: hovered ? "rgba(255,255,255,0.6)" : "rgba(255,255,255,0.4)",
               transition: "all 0.3s ease",
-              boxShadow: hovered ? "0 0 8px rgba(217, 255, 28, 0.6)" : "none",
+              boxShadow: hovered ? "0 0 8px rgba(255,255,255,0.4)" : "none",
               animation: hovered ? "pulse 1.5s infinite" : "none",
             }}
           />

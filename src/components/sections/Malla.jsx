@@ -3,14 +3,14 @@ import BorderGlow from '../BorderGlow ';
 
 const GLOW_CONFIG = {
   edgeSensitivity: 30,
-  glowColor: "40 80 80",
-  backgroundColor: "#120F17",
+  glowColor: "100 100 120",
+  backgroundColor: "#0a0a0f",
   borderRadius: 28,
   glowRadius: 40,
-  glowIntensity: 1,
+  glowIntensity: 0.8,
   coneSpread: 25,
   animated: false,
-  colors: ['#7cff67', '#d9ff1c', '#39FF14']
+  colors: ['rgba(255,255,255,0.4)', 'rgba(255,255,255,0.3)', 'rgba(255,255,255,0.2)']
 };
 
 const periodos = [
@@ -18,7 +18,7 @@ const periodos = [
     id: 1,
     numero: "Período 1",
     duracion: "12 semanas",
-    color: "#7cff67",
+    color: "rgba(255,255,255,0.8)",
     temas: [
       "HTML & CSS",
       "JavaScript Básico",
@@ -30,7 +30,7 @@ const periodos = [
     id: 2,
     numero: "Período 2",
     duracion: "12 semanas",
-    color: "#39FF14",
+    color: "rgba(255,255,255,0.7)",
     temas: [
       "JavaScript Avanzado",
       "React Fundamentals",
@@ -42,7 +42,7 @@ const periodos = [
     id: 3,
     numero: "Período 3",
     duracion: "12 semanas",
-    color: "#d9ff1c",
+    color: "rgba(255,255,255,0.6)",
     temas: [
       "Backend Node.js",
       "Full Stack Projects",
@@ -86,7 +86,7 @@ export default function Malla() {
             <div className="relative py-12">
               
               {/* Línea conectora animada */}
-              <div className="absolute top-1/3 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-green-400 via-yellow-300 to-transparent transform -translate-y-1/2 z-0 shadow-lg shadow-green-400/50"></div>
+              <div className="absolute top-1/3 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-white/40 to-transparent transform -translate-y-1/2 z-0 shadow-lg shadow-white/30"></div>
 
               {/* Periodos */}
               <div className="flex justify-between items-center gap-8 relative z-10">
@@ -112,24 +112,24 @@ export default function Malla() {
                     {/* Card del periodo - Más grande y atractiva */}
                     <BorderGlow
                       {...GLOW_CONFIG}
-                      className="w-full h-full hover:scale-105 transition-transform duration-300"
+                      className="w-full h-full hover:scale-105 transition-transform duration-400"
                     >
-                      <div style={{ padding: '2.5em' }} className="flex flex-col h-full gap-6 bg-gradient-to-br from-[#1a2a1f] to-[#0f1915]">
+                      <div style={{ padding: '2.5em' }} className="flex flex-col h-full gap-6 bg-gradient-to-br from-[rgba(255,255,255,0.05)] to-[rgba(0,0,0,0.1)]">
                         
                         {/* Header con número de período */}
-                        <div className="border-b border-green-400/30 pb-4">
+                        <div className="border-b border-white/15 pb-4">
                           <div className="flex items-baseline gap-2 mb-2">
                             <span className="text-4xl font-black" style={{ color: periodo.color }}>
                               {idx + 1}
                             </span>
                             <h3 className="text-2xl font-bold text-white">{periodo.numero}</h3>
                           </div>
-                          <p className="text-sm text-green-400 font-semibold">{periodo.duracion}</p>
+                          <p className="text-sm text-white/70 font-semibold">{periodo.duracion}</p>
                         </div>
 
                         {/* Semanas Visual - Barras progresivas */}
                         <div>
-                          <p className="text-xs text-yellow-300 font-bold mb-3 uppercase tracking-wider">Progreso: 12 semanas</p>
+                          <p className="text-xs text-white/60 font-bold mb-3 uppercase tracking-wider">Progreso: 12 semanas</p>
                           <div className="flex gap-1.5">
                             {Array.from({ length: 12 }).map((_, i) => (
                               <div
@@ -138,7 +138,7 @@ export default function Malla() {
                                 style={{ 
                                   backgroundColor: periodo.color,
                                   opacity: 0.3 + (i * 0.055),
-                                  boxShadow: `0 0 ${5 + i}px ${periodo.color}80`
+                                  boxShadow: `0 0 ${5 + i}px rgba(255,255,255,${0.3 + (i * 0.055)})`
                                 }}
                               ></div>
                             ))}
@@ -147,10 +147,10 @@ export default function Malla() {
 
                         {/* Temas */}
                         <div className="flex-grow">
-                          <p className="text-xs text-green-400 font-bold uppercase mb-3 tracking-widest">📖 Contenido:</p>
+                          <p className="text-xs text-white/70 font-bold uppercase mb-3 tracking-widest">📖 Contenido:</p>
                           <ul className="space-y-2.5">
                             {periodo.temas.map((tema, i) => (
-                              <li key={i} className="text-sm text-gray-200 flex items-center hover:text-green-300 transition-colors">
+                              <li key={i} className="text-sm text-white/75 flex items-center hover:text-white/95 transition-colors">
                                 <span 
                                   className="inline-block w-1.5 h-1.5 rounded-full mr-3"
                                   style={{ backgroundColor: periodo.color, boxShadow: `0 0 8px ${periodo.color}` }}
@@ -162,13 +162,13 @@ export default function Malla() {
                         </div>
 
                         {/* Footer - Badge */}
-                        <div className="pt-4 border-t border-green-400/20">
+                        <div className="pt-4 border-t border-white/15">
                           <div 
                             className="inline-block px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider"
                             style={{ 
-                              backgroundColor: `${periodo.color}20`,
-                              color: periodo.color,
-                              border: `1px solid ${periodo.color}40`
+                              backgroundColor: `rgba(255,255,255,0.08)`,
+                              color: "rgba(255,255,255,0.9)",
+                              border: `1px solid rgba(255,255,255,0.2)`
                             }}
                           >
                             {idx === 0 ? '🚀 Inicio' : idx === 1 ? '⚡ Aceleración' : '🎯 Especialización'}
