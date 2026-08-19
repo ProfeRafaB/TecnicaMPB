@@ -1,0 +1,50 @@
+{
+  "projects": [
+    {
+      "id": "proyecto-por-publicar-2026",
+      "title": "Proyecto por publicar",
+      "year": 2026,
+      "level": "Nivel por confirmar",
+      "category": "Por confirmar",
+      "description": "Espacio preparado para documentar un proyecto estudiantil real.",
+      "cover": "",
+      "gallery": [],
+      "technologies": ["Tecnologías por definir"],
+      "students": [],
+      "documentation": {
+        "introduction": "Información pendiente de confirmar por la institución.",
+        "problem": "Información pendiente de confirmar por la institución.",
+        "objectives": [],
+        "solution": "Información pendiente de confirmar por la institución.",
+        "features": [],
+        "development": "Información pendiente de confirmar por la institución.",
+        "challenges": [],
+        "results": "Información pendiente de confirmar por la institución."
+      },
+      "links": { "repository": "", "demo": "https://civikoo.com" }
+    },
+    {
+      "id": "proyecto-por-publicar-2025",
+      "title": "Proyecto por publicar",
+      "year": 2025,
+      "level": "Nivel por confirmar",
+      "category": "Por confirmar",
+      "description": "Reemplaza esta ficha con la información verificada del proyecto.",
+      "cover": "",
+      "gallery": [],
+      "technologies": ["Tecnologías por definir"],
+      "students": [],
+      "documentation": {
+        "introduction": "Información pendiente de confirmar por la institución.",
+        "problem": "Información pendiente de confirmar por la institución.",
+        "objectives": [],
+        "solution": "Información pendiente de confirmar por la institución.",
+        "features": [],
+        "development": "Información pendiente de confirmar por la institución.",
+        "challenges": [],
+        "results": "Información pendiente de confirmar por la institución."
+      },
+      "links": { "repository": "", "demo": "" }
+    }
+  ]
+}
