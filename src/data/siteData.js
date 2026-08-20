@@ -7,39 +7,6 @@ export const areas = [
   ["05", "UI / UX", "Interfaces claras y experiencias centradas en personas."],
   ["06", "Colaboración", "Metodologías, comunicación y proyectos compartidos."],
 ];
-// MOCK EDITABLE: añade proyectos reales aquí. Usa image cuando exista una fotografía autorizada.
-// export const projects = [
-//   {
-//     id: 1,
-//     year: "2026",
-//     title: "Egglish: Aprende Inglish jugando",
-//     level: "Nivel por confirmar",
-//     description:
-//       "Espacio preparado para documentar un proyecto estudiantil real.",
-//     stack: ["Tecnologías por definir"],
-//     image: "",
-//   },
-//   {
-//     id: 2,
-//     year: "2025",
-//     title: "Egglish: Aprende Inglish jugando",
-//     level: "Tecnico Programacion",
-//     description:
-//       "Reemplaza esta tarjeta con información verificada por la institución.",
-//     stack: ["Tecnologías por definir"],
-//     image: "/public/imagenes/Egglish.png",
-//   },
-//   {
-//     id: 3,
-//     year: "2024",
-//     title: "Proyecto por publicar",
-//     level: "Nivel por confirmar",
-//     description:
-//       "La ficha admitirá enlace, integrantes y evidencia visual autorizada.",
-//     stack: ["Tecnologías por definir"],
-//     image: "",
-//   },
-// ];
 export const moments = [
   { title: "Momento por documentar", label: "Fotografía pendiente", image: "" },
   {
@@ -57,16 +24,16 @@ export const moments = [
 export const teachers = [
   {
     id: 1,
-    name: "Docente por confirmar",
-    role: "Desarrollo de software",
+    name: "Rafel Boada Rivera",
+    role: "Profesor de la técnica",
     bio: "Perfil, trayectoria y datos de contacto pendientes de confirmar.",
     image: "",
     initials: "01",
   },
   {
     id: 2,
-    name: "Docente por confirmar",
-    role: "Programación y lógica",
+    name: "Ligdy Orozco Alvarez",
+    role: "Instructora de la técnica",
     bio: "Perfil, trayectoria y datos de contacto pendientes de confirmar.",
     image: "",
     initials: "02",
@@ -74,7 +41,7 @@ export const teachers = [
   {
     id: 3,
     name: "Docente por confirmar",
-    role: "Diseño y experiencia",
+    role: "Desarollador",
     bio: "Perfil, trayectoria y datos de contacto pendientes de confirmar.",
     image: "",
     initials: "03",
