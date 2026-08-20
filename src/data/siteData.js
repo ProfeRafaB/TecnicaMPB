@@ -8,38 +8,38 @@ export const areas = [
   ["06", "Colaboración", "Metodologías, comunicación y proyectos compartidos."],
 ];
 // MOCK EDITABLE: añade proyectos reales aquí. Usa image cuando exista una fotografía autorizada.
-export const projects = [
-  {
-    id: 1,
-    year: "2026",
-    title: "Proyecto por publicar",
-    level: "Nivel por confirmar",
-    description:
-      "Espacio preparado para documentar un proyecto estudiantil real.",
-    stack: ["Tecnologías por definir"],
-    image: "",
-  },
-  {
-    id: 2,
-    year: "2025",
-    title: "Proyecto por publicar",
-    level: "Nivel por confirmar",
-    description:
-      "Reemplaza esta tarjeta con información verificada por la institución.",
-    stack: ["Tecnologías por definir"],
-    image: "",
-  },
-  {
-    id: 3,
-    year: "2024",
-    title: "Proyecto por publicar",
-    level: "Nivel por confirmar",
-    description:
-      "La ficha admitirá enlace, integrantes y evidencia visual autorizada.",
-    stack: ["Tecnologías por definir"],
-    image: "",
-  },
-];
+// export const projects = [
+//   {
+//     id: 1,
+//     year: "2026",
+//     title: "Egglish: Aprende Inglish jugando",
+//     level: "Nivel por confirmar",
+//     description:
+//       "Espacio preparado para documentar un proyecto estudiantil real.",
+//     stack: ["Tecnologías por definir"],
+//     image: "",
+//   },
+//   {
+//     id: 2,
+//     year: "2025",
+//     title: "Egglish: Aprende Inglish jugando",
+//     level: "Tecnico Programacion",
+//     description:
+//       "Reemplaza esta tarjeta con información verificada por la institución.",
+//     stack: ["Tecnologías por definir"],
+//     image: "/public/imagenes/Egglish.png",
+//   },
+//   {
+//     id: 3,
+//     year: "2024",
+//     title: "Proyecto por publicar",
+//     level: "Nivel por confirmar",
+//     description:
+//       "La ficha admitirá enlace, integrantes y evidencia visual autorizada.",
+//     stack: ["Tecnologías por definir"],
+//     image: "",
+//   },
+// ];
 export const moments = [
   { title: "Momento por documentar", label: "Fotografía pendiente", image: "" },
   {

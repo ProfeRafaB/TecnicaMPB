@@ -2,26 +2,26 @@
   "projects": [
     {
       "id": "proyecto-por-publicar-2026",
-      "title": "Proyecto por publicar",
+      "title": "Egglish: Aprende Inglish jugando",
       "year": 2026,
-      "level": "Nivel por confirmar",
-      "category": "Por confirmar",
-      "description": "Espacio preparado para documentar un proyecto estudiantil real.",
-      "cover": "",
-      "gallery": [],
-      "technologies": ["Tecnologías por definir"],
-      "students": [],
+      "level": "Tecnico Programacion",
+      "category": "Educativo",
+      "description": "Egglish es una plataforma web educativa diseñada para hacer que el aprendizaje del inglés sea más dinámico, interactivo y motivador. A través de actividades de listening, writing, vocabulario y ejercicios multimedia, busca fortalecer las competencias lingüísticas de los estudiantes y complementar la enseñanza tradicional con herramientas digitales modernas.",
+      "cover": "/public/imagenes/Egglish.jpeg",
+      "gallery": ["/public/imagenes/Egglish.jpeg", "/public/imagenes/Egglish.jpeg", "/public/imagenes/Egglish.jpeg", "/public/imagenes/Egglish.jpeg"],
+      "technologies": ["HTML","JavaScript", "Tailwind CSS", "Firebase Firestore", "Web Audio API"],
+      "students": ["Yoimar Joseph Serrano cruz ", " Mariangel Hernández Minorta", " Evelyn Gisell Granados Vargas", "Karoll Nicoll Contreras Ortega", "Luis Santiago Galvis Santander"],
       "documentation": {
-        "introduction": "Información pendiente de confirmar por la institución.",
-        "problem": "Información pendiente de confirmar por la institución.",
-        "objectives": [],
-        "solution": "Información pendiente de confirmar por la institución.",
-        "features": [],
-        "development": "Información pendiente de confirmar por la institución.",
-        "challenges": [],
-        "results": "Información pendiente de confirmar por la institución."
+        "introduction": "Egglish es una plataforma web educativa creada para hacer del aprendizaje del inglés una experiencia más dinámica e interactiva. A través de actividades de listelo que busca esning, writing, vocabulario y ejercicios, busca fortalecer las competencias lingüísticas de los estudiantes y complementar la enseñanza tradicional mediante herramientas digitales. ",
+        "problem": "El bajo rendimiento académico y la dificultad para alcanzar niveles de competencia bilingüe en la institución se deben a la carencia de herramientas tecnológicas dinámicas que complementen el currículo escolar. Esto genera una brecha entre lo que el estudiante aprende en el aula y las habilidades prácticas que requiere para su futuro profesional y académico. ",
+        "objectives": ["1. Desarrollar el software educativo “Egglish”para dinamizar el aprendizaje de las competencias lingüísticas básicas en inglés a nivel de educación primaria.",  "2. Diseñar la estructura pedagógica e interfaz e la herramienta digital", "3. Validar la funcionalidad técnica del software mediante la prueba de usuario", "4. Programar los módulos interactivos y la base de datos del software"],
+        "solution": "Proveer una alternativa digital y atractiva mediante la aplicación \"Egglish\", diseñada para transformar la enseñanza del inglés a través de recursos interactivos que incrementan el interés y la motivación de los estudiantes frente a los métodos convencionales. ",
+        "features": ["1) Enfoque interactivo y gamificado: Rutinas dinámicas para motivar el aprendizaje y romper con los métodos tradicionales. ", "2) Tecnologías modernas: Desarrollado con JavaScript, HTML5, Tailwind CSS y Firebase Firestore para una gestión fluida en tiempo real.", "3) Audio y multimedia: Funcionalidad integrada de web audio orientada a potenciar las competencias de escucha y práctica del inglés. ", "4) Plataforma web accesible: Aplicación de página única (SPA) optimizada para ofrecer una navegación rápida y responsiva desde cualquier navegador. "],
+        "development": "El desarrollo del proyecto consistió en la planificación y diseño de la interfaz de la plataforma web, seguida de la construcción del frontend mediante HTML5, Tailwind CSS y JavaScript vainilla para lograr una experiencia fluida como aplicación de página única (SPA). Posteriormente, se integraron las funciones de web audio para las prácticas de escucha y la lógica orientada al aprendizaje del inglés, finalizando con la configuración de Firebase Firestore para la gestión de datos en tiempo real y las pruebas de funcionamiento.  ",
+        "challenges": ["Durante el desarrollo de Egglish nos enfrentamos a varios retos, como configurar y sincronizar el audio web para que las prácticas de escucha funcionaran sin errores, conectar correctamente la aplicación con Firebase Firestore para gestionar el progreso de los usuarios en tiempo real, y estructurar la lógica en JavaScript vainilla y Tailwind CSS para lograr una navegación fluida, rápida y sin recargas en la arquitectura SPA.  "],
+        "results": "Los estudiantes obtuvieron una mayor motivación e interés hacia el estudio del inglés al romper con la monotonía de los métodos tradicionales, mejoraron notablemente sus competencias de escucha (listening) mediante las herramientas de audio web, y lograron un avance constante y autónomo a su propio ritmo a través de las rutas de aprendizaje interactivo.  "
       },
-      "links": { "repository": "", "demo": "https://civikoo.com" }
+      "links": { "repository": "", "demo": "https://egglish.misaeltech.com/" }
     },
     {
       "id": "proyecto-por-publicar-2025",
