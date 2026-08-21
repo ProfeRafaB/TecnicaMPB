@@ -190,9 +190,7 @@ export default function TechSections() {
                   <span>{teacher.role}</span>
                   <h3>{teacher.name}</h3>
                   <p>{teacher.bio}</p>
-                  <button disabled>
-                    Perfil disponible pronto <ArrowUpRight size={16} />
-                  </button>
+                  
                 </div>
               </motion.article>
             ))}
