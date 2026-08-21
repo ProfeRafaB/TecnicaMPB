@@ -8,20 +8,54 @@
       "category": "Educativo",
       "description": "Egglish es una plataforma web educativa diseñada para hacer que el aprendizaje del inglés sea más dinámico, interactivo y motivador. A través de actividades de listening, writing, vocabulario y ejercicios multimedia, busca fortalecer las competencias lingüísticas de los estudiantes y complementar la enseñanza tradicional con herramientas digitales modernas.",
       "cover": "/Imagenes/Egglish.jpeg",
-      "gallery": ["/Imagenes/Egglish_fot_01.jpeg", "/Imagenes/Egglish_fot_02.jpeg", "/Imagenes/Egglish_fot_03.jpeg", "/Imagenes/Egglish_fot_04.jpeg", "/Imagenes/Egglish_fot_05.jpeg", "/Imagenes/Egglish_fot_06.jpeg"],
-      "technologies": ["HTML","JavaScript", "Tailwind CSS", "Firebase Firestore", "Web Audio API"],
-      "students": ["Yoimar Joseph Serrano cruz ", " Mariangel Hernández Minorta", " Evelyn Gisell Granados Vargas", "Karoll Nicoll Contreras Ortega", "Luis Santiago Galvis Santander"],
+      "gallery": [
+        "/Imagenes/Egglish_fot_01.jpeg",
+        "/Imagenes/Egglish_fot_02.jpeg",
+        "/Imagenes/Egglish_fot_03.jpeg",
+        "/Imagenes/Egglish_fot_04.jpeg",
+        "/Imagenes/Egglish_fot_05.jpeg",
+        "/Imagenes/Egglish_fot_06.jpeg"
+      ],
+      "technologies": [
+        "HTML",
+        "JavaScript",
+        "Tailwind CSS",
+        "Firebase Firestore",
+        "Web Audio API"
+      ],
+      "students": [
+        "Yoimar Joseph Serrano cruz ",
+        " Mariangel Hernández Minorta",
+        " Evelyn Gisell Granados Vargas",
+        "Karoll Nicoll Contreras Ortega",
+        "Luis Santiago Galvis Santander"
+      ],
       "documentation": {
         "introduction": "Egglish es una plataforma web educativa creada para hacer del aprendizaje del inglés una experiencia más dinámica e interactiva. A través de actividades de listelo que busca esning, writing, vocabulario y ejercicios, busca fortalecer las competencias lingüísticas de los estudiantes y complementar la enseñanza tradicional mediante herramientas digitales. ",
         "problem": "El bajo rendimiento académico y la dificultad para alcanzar niveles de competencia bilingüe en la institución se deben a la carencia de herramientas tecnológicas dinámicas que complementen el currículo escolar. Esto genera una brecha entre lo que el estudiante aprende en el aula y las habilidades prácticas que requiere para su futuro profesional y académico. ",
-        "objectives": ["1. Desarrollar el software educativo “Egglish”para dinamizar el aprendizaje de las competencias lingüísticas básicas en inglés a nivel de educación primaria.",  "2. Diseñar la estructura pedagógica e interfaz e la herramienta digital", "3. Validar la funcionalidad técnica del software mediante la prueba de usuario", "4. Programar los módulos interactivos y la base de datos del software"],
+        "objectives": [
+          "1. Desarrollar el software educativo “Egglish”para dinamizar el aprendizaje de las competencias lingüísticas básicas en inglés a nivel de educación primaria.",
+          "2. Diseñar la estructura pedagógica e interfaz e la herramienta digital",
+          "3. Validar la funcionalidad técnica del software mediante la prueba de usuario",
+          "4. Programar los módulos interactivos y la base de datos del software"
+        ],
         "solution": "Proveer una alternativa digital y atractiva mediante la aplicación \"Egglish\", diseñada para transformar la enseñanza del inglés a través de recursos interactivos que incrementan el interés y la motivación de los estudiantes frente a los métodos convencionales. ",
-        "features": ["1) Enfoque interactivo y gamificado: Rutinas dinámicas para motivar el aprendizaje y romper con los métodos tradicionales. ", "2) Tecnologías modernas: Desarrollado con JavaScript, HTML5, Tailwind CSS y Firebase Firestore para una gestión fluida en tiempo real.", "3) Audio y multimedia: Funcionalidad integrada de web audio orientada a potenciar las competencias de escucha y práctica del inglés. ", "4) Plataforma web accesible: Aplicación de página única (SPA) optimizada para ofrecer una navegación rápida y responsiva desde cualquier navegador. "],
+        "features": [
+          "1) Enfoque interactivo y gamificado: Rutinas dinámicas para motivar el aprendizaje y romper con los métodos tradicionales. ",
+          "2) Tecnologías modernas: Desarrollado con JavaScript, HTML5, Tailwind CSS y Firebase Firestore para una gestión fluida en tiempo real.",
+          "3) Audio y multimedia: Funcionalidad integrada de web audio orientada a potenciar las competencias de escucha y práctica del inglés. ",
+          "4) Plataforma web accesible: Aplicación de página única (SPA) optimizada para ofrecer una navegación rápida y responsiva desde cualquier navegador. "
+        ],
         "development": "El desarrollo del proyecto consistió en la planificación y diseño de la interfaz de la plataforma web, seguida de la construcción del frontend mediante HTML5, Tailwind CSS y JavaScript vainilla para lograr una experiencia fluida como aplicación de página única (SPA). Posteriormente, se integraron las funciones de web audio para las prácticas de escucha y la lógica orientada al aprendizaje del inglés, finalizando con la configuración de Firebase Firestore para la gestión de datos en tiempo real y las pruebas de funcionamiento.  ",
-        "challenges": ["Durante el desarrollo de Egglish nos enfrentamos a varios retos, como configurar y sincronizar el audio web para que las prácticas de escucha funcionaran sin errores, conectar correctamente la aplicación con Firebase Firestore para gestionar el progreso de los usuarios en tiempo real, y estructurar la lógica en JavaScript vainilla y Tailwind CSS para lograr una navegación fluida, rápida y sin recargas en la arquitectura SPA.  "],
+        "challenges": [
+          "Durante el desarrollo de Egglish nos enfrentamos a varios retos, como configurar y sincronizar el audio web para que las prácticas de escucha funcionaran sin errores, conectar correctamente la aplicación con Firebase Firestore para gestionar el progreso de los usuarios en tiempo real, y estructurar la lógica en JavaScript vainilla y Tailwind CSS para lograr una navegación fluida, rápida y sin recargas en la arquitectura SPA.  "
+        ],
         "results": "Los estudiantes obtuvieron una mayor motivación e interés hacia el estudio del inglés al romper con la monotonía de los métodos tradicionales, mejoraron notablemente sus competencias de escucha (listening) mediante las herramientas de audio web, y lograron un avance constante y autónomo a su propio ritmo a través de las rutas de aprendizaje interactivo.  "
       },
-      "links": { "repository": "https://github.com/yoi-max-web/Egglish-.git", "demo": "https://egglish.misaeltech.com/" }
+      "links": {
+        "repository": "https://github.com/yoi-max-web/Egglish-.git",
+        "demo": "https://egglish.misaeltech.com/"
+      }
     },
     {
       "id": "proyecto-publicado-2026-2",
@@ -31,45 +65,113 @@
       "category": "Educativo",
       "description": "Orientau es una plataforma web que ofrece un test vocacional y de orientación profesional, diseñado para ayudar a los estudiantes de grado once y diez a tomar decisiones informadas sobre su futuro académico y profesional. La herramienta analiza el puntaje ICFES y el perfil vocacional del estudiante para recomendar carreras universitarias y programas educativos que se alineen con sus intereses y habilidades.",
       "cover": "/Imagenes/Orientau.jpeg",
-      "gallery": ["/Imagenes/Orientau_fot_01.jpeg", "/Imagenes/Orientau_fot_02.jpeg", "/Imagenes/Orientau_fot_03.jpeg", "/Imagenes/Orientau_fot_04.jpeg", "/Imagenes/Orientau_fot_05.jpeg", "/Imagenes/Orientau_fot_06.jpeg"],
-      "technologies": ["HTML","JavaScript", "CSS", "Superbase ", "Claude API"],
-      "students": ["Josué Nicolás Cañas Mariño", "Angel Eduardo Rodríguez Ramírez", "Madeleyn Alexandra Villamizar Arcos", "Cristhian Alexander Cuadros Mora", "Taliana Michelle Gamarra Duran"],
+      "gallery": [
+        "/Imagenes/Orientau_fot_01.jpeg",
+        "/Imagenes/Orientau_fot_02.jpeg",
+        "/Imagenes/Orientau_fot_03.jpeg",
+        "/Imagenes/Orientau_fot_04.jpeg",
+        "/Imagenes/Orientau_fot_05.jpeg",
+        "/Imagenes/Orientau_fot_06.jpeg"
+      ],
+      "technologies": ["HTML", "JavaScript", "CSS", "Superbase ", "Claude API"],
+      "students": [
+        "Josué Nicolás Cañas Mariño",
+        "Angel Eduardo Rodríguez Ramírez",
+        "Madeleyn Alexandra Villamizar Arcos",
+        "Cristhian Alexander Cuadros Mora",
+        "Taliana Michelle Gamarra Duran"
+      ],
       "documentation": {
         "introduction": "OrientaU es un sitio web de test que  Nace de la necesidad de que los estudiantes de grado once y decimo tengan una herramienta que los oriente en la elección de carrera universitaria de forma personalizada, en lugar de decidir a ciegas o solo por el puntaje ICFES.",
         "problem": " Muchos estudiantes terminan el bachillerato sin información clara sobre qué opciones académicas son coherentes con su puntaje ICFES y su perfil vocacional. Esto genera elecciones de carrera poco informadas, deserción universitaria temprana y desaprovechamiento de oportunidades de admisión ",
-        "objectives": ["1) Desarrollar una plataforma web que oriente a los estudiantes en la elección de carreras universitarias, mediante el análisis de su puntaje ICFES y la presentación de opciones académicas acordes a su perfil.", "2) diseñar un sistema que relacione puntajes ICFES con requisitos de admisión de distintos programas.", "3) implementar una interfaz intuitiva para consultar las carreras disponibles según el puntaje;", "4) brindar información clara y actualizada sobre programas y requisitos de ingreso para apoyar una decisión informada."],
+        "objectives": [
+          "1) Desarrollar una plataforma web que oriente a los estudiantes en la elección de carreras universitarias, mediante el análisis de su puntaje ICFES y la presentación de opciones académicas acordes a su perfil.",
+          "2) diseñar un sistema que relacione puntajes ICFES con requisitos de admisión de distintos programas.",
+          "3) implementar una interfaz intuitiva para consultar las carreras disponibles según el puntaje;",
+          "4) brindar información clara y actualizada sobre programas y requisitos de ingreso para apoyar una decisión informada."
+        ],
         "solution": "Una plataforma web (OrientaU) que evalúa el perfil vocacional del estudiante mediante un banco de preguntas y su puntaje ICFES, y le recomienda carreras y universidades afines, con un panel de 125 universidades públicas y privadas.. ",
-        "features": ["1) Banco de 500 preguntas distribuidas en 10 áreas temáticas, con puntuación tipo Likert ponderada", "2) Modo de prueba dual (versión corta de 30 preguntas y versión completa de 500)", "3) Integración con la API de Claude (IA) para generar recomendaciones de carrera personalizadas", "4) Panel ICFES con 125 universidades organizadas en pestañas públicas/privadas", "5) Registro y login con recuperación de contraseña "],
+        "features": [
+          "1) Banco de 500 preguntas distribuidas en 10 áreas temáticas, con puntuación tipo Likert ponderada",
+          "2) Modo de prueba dual (versión corta de 30 preguntas y versión completa de 500)",
+          "3) Integración con la API de Claude (IA) para generar recomendaciones de carrera personalizadas",
+          "4) Panel ICFES con 125 universidades organizadas en pestañas públicas/privadas",
+          "5) Registro y login con recuperación de contraseña "
+        ],
         "development": "Siguiendo el cronograma (6 meses, ciclo SDLC): identificación del problema y planificación → diseño y creación de la base de datos en MySQL (gestionada con phpMyAdmin sobre XAMPP, tabla usuarios con id, nombre, email, password, ciudad, fecha de registro) → desarrollo de backend en PHP y frontend en HTML/CSS/JS → pruebas y depuración → evaluación y despliegue. Las capturas de phpMyAdmin muestran la base ya operativa, con usuarios reales registrados. ",
-        "challenges": ["Corrección de un bug donde una función (expRestart()) eliminada por error causaba una falla silenciosa",
+        "challenges": [
+          "Corrección de un bug donde una función (expRestart()) eliminada por error causaba una falla silenciosa",
           "Manejo de nombres de universidades con caracteres especiales que rompían los onclick, resuelto usando atributos data- y delegación de eventos",
-          "Integrar todos los módulos (test vocacional, panel ICFES, IA) en una sola página sin perder rendimiento" ],
+          "Integrar todos los módulos (test vocacional, panel ICFES, IA) en una sola página sin perder rendimiento"
+        ],
         "results": "Una plataforma funcional con registro/login validado, base de datos operativa, banco de preguntas completo y recomendaciones por IA en funcionamiento. El equipo aplicó de forma práctica el ciclo SDLC completo (planificación, diseño, desarrollo, pruebas y despliegue) y reforzó su experiencia en desarrollo backend, frontend y trabajo en equipo por roles.  "
       },
-      "links": { "repository": "https://github.com/aerodriguezramirez-max/orientau", "demo": "https://orientau.misaeltech.com/" }
+      "links": {
+        "repository": "https://github.com/aerodriguezramirez-max/orientau",
+        "demo": "https://orientau.misaeltech.com/"
+      }
     },
     {
       "id": "proyecto-publicado-2026-3",
       "title": "Galaxia Navegadora: Simulador de exploración espacial",
       "year": 2026,
       "level": "Tecnico Programacion",
-      "category": "Educativo",
-      "description": "",
-      "cover": "",
-      "gallery": [],
-      "technologies": [],
-      "students": [],
+      "category": "Arcade",
+      "description": "Galaxia Navega – Defensa Intergaláctica es un videojuego web desarrollado como proyecto tecnológico, donde el jugador controla una nave espacial y debe defender una galaxia enfrentándose a distintos tipos de enemigos, superando niveles, utilizando poderes especiales y aplicando conocimientos de programación.",
+      "cover": "logo-galaxia-navega.png",
+      "gallery": [
+        "captura-menu-principal.png",
+        "captura-nivel-aurora-estelar.png",
+        "captura-nivel-viento-sideral.png",
+        "captura-jefe-final.png",
+        "captura-personalizacion-nave.png"
+      ],
+      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "students": ["Gabriela "],
       "documentation": {
-        "introduction": "",
-        "problem": "",
-        "objectives": [],
-        "solution": "",
-        "features": [],
-        "development": "",
-        "challenges": [],
-        "results": ""
+        "introduction": "Galaxia Navega – Defensa Intergaláctica es un videojuego web de temática espacial que permite al jugador controlar una nave, avanzar por niveles y enfrentarse a enemigos utilizando diferentes poderes y habilidades. El proyecto busca ofrecer una experiencia interactiva mientras se aplican conocimientos de programación y desarrollo web.",
+        "problem": "Desarrollar un videojuego desde cero representa un reto para los estudiantes, ya que requiere aplicar conocimientos de programación, diseño, lógica y organización. El problema planteado consiste en cómo crear un videojuego web funcional, entretenido e interactivo que permita poner en práctica estos conocimientos.",
+        "objectives": [
+          "Desarrollar un videojuego web de temática espacial llamado Galaxia Navega – Defensa Intergaláctica.",
+          "Diseñar una interfaz atractiva con estética espacial.",
+          "Crear niveles con distintos tipos de enemigos y dificultades.",
+          "Implementar sistemas de puntuación, vidas y monedas.",
+          "Incorporar poderes especiales para mejorar la experiencia del jugador.",
+          "Permitir la personalización de la nave.",
+          "Crear un manual de juego con instrucciones y controles.",
+          "Implementar un jefe final como desafío.",
+          "Aplicar conocimientos de programación y desarrollo web."
+        ],
+        "solution": "La solución propuesta consiste en desarrollar un videojuego web donde el jugador controla una nave espacial y debe superar niveles eliminando enemigos, evitando ataques y utilizando poderes especiales. El juego integra sistemas de vidas, puntuación, monedas, personalización y diferentes tipos de enemigos, incluyendo un jefe final.",
+        "features": [
+          "Nave espacial controlable.",
+          "Ambientación intergaláctica.",
+          "Controles mediante teclado.",
+          "Diferentes niveles temáticos.",
+          "Varios tipos de enemigos.",
+          "Jefe final.",
+          "Sistema de vidas.",
+          "Sistema de monedas.",
+          "Sistema de puntuación.",
+          "Poderes especiales como escudo, disparo rápido, doble disparo, ralentización y penetración.",
+          "Personalización de la nave con colores, accesorios y efectos.",
+          "Manual de juego.",
+          "Sistema de pausa.",
+          "Opción para reiniciar el nivel."
+        ],
+        "development": "El proyecto se desarrolló construyendo la estructura de un videojuego web con HTML, CSS y JavaScript. Se diseñó la interfaz principal con estética espacial y se implementaron los elementos del juego: nave, enemigos, proyectiles, vidas, puntuación y niveles. Se crearon niveles como Aurora Estelar, Viento Sideral, Coloso Rojo y Zona de Fuego. Se añadieron poderes especiales, sistema de monedas, pantallas de derrota y victoria, y mensajes motivacionales.",
+        "challenges": [
+          "Coordinar correctamente los elementos del juego como movimientos, disparos, enemigos y estados del nivel.",
+          "Implementar diferentes tipos de enemigos con comportamientos únicos.",
+          "Desarrollar un sistema para administrar vidas, puntuación, monedas y poderes.",
+          "Gestionar estados del juego como pausa, derrota y victoria."
+        ],
+        "results": "Los estudiantes lograron desarrollar un videojuego web funcional con temática espacial, niveles variados, enemigos, jefe final, sistemas de vidas, puntuación y monedas, poderes especiales, personalización de la nave, menús, pantallas de victoria y derrota, y un manual de juego. El proyecto demuestra la aplicación práctica de conocimientos de programación y desarrollo web."
       },
-      "links": { "repository": "", "demo": "https://navega.misaeltech.com/" }
+      "links": {
+        "repository": "",
+        "demo": "https://navega.misaeltech.com/"
+      }
     },
     {
       "id": "proyecto-publicado-2026-4",
@@ -77,22 +179,61 @@
       "year": 2026,
       "level": "Tecnico Programacion",
       "category": "Educativo",
-      "description": "",
-      "cover": "",
-      "gallery": [],
-      "technologies": [],
-      "students": [],
+      "description": "MacroSync es una plataforma web desarrollada por estudiantes de la Técnica en Programación de Software, orientada al cálculo metabólico, análisis nutricional y seguimiento del consumo calórico mediante una interfaz organizada y moderna.",
+      "cover": "logo-macrosync.png",
+      "gallery": [
+        "captura-calculadora-metabolica.png",
+        "captura-analizador-comidas.png",
+        "captura-visor-calorias.png",
+        "captura-interfaz-principal.png",
+        "captura-autenticacion-supabase.png"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript", "Supabase"],
+      "students": [
+        "Michael Steven Sepúlveda Hernández",
+        "Esneider De Jesús Ramírez Gonzáles",
+        "Ana María Martínez Higuera",
+        "David Santiago Gelvez Gaona",
+        "Hillary Aylani Álvarez Molina"
+      ],
       "documentation": {
-        "introduction": "",
-        "problem": "",
-        "objectives": [],
-        "solution": "",
-        "features": [],
-        "development": "",
-        "challenges": [],
-        "results": ""
+        "introduction": "MacroSync es un proyecto de software orientado al seguimiento y análisis de información nutricional. Según el documento: \"MacroSync es un proyecto de software desarrollado por estudiantes... con el propósito de crear una herramienta web orientada al seguimiento y análisis de información nutricional.\"",
+        "problem": "Las personas interesadas en controlar su alimentación suelen necesitar calcular requerimientos energéticos, analizar comidas y registrar su consumo diario. El documento indica: \"Cuando estas funciones se encuentran separadas, el proceso puede resultar poco práctico y dificultar la organización de la información.\"",
+        "objectives": [
+          "1) Desarrollar una plataforma web que integre herramientas de cálculo y seguimiento nutricional.",
+          "2) Crear una calculadora metabólica configurable.",
+          "3) Implementar un analizador de comidas mediante lenguaje natural.",
+          "4) Incorporar un Visor de Calorías con historial de consumo.",
+          "5) Integrar registro, inicio de sesión y verificación de correo mediante Supabase.",
+          "6) Diseñar una interfaz moderna y organizada.",
+          "7) Aplicar conocimientos adquiridos durante la formación técnica."
+        ],
+        "solution": "La solución propuesta fue MacroSync, una aplicación web que centraliza herramientas de cálculo metabólico, análisis de comidas y seguimiento calórico. El documento señala: \"La solución propuesta fue MacroSync, una aplicación web que centraliza varias herramientas relacionadas con la gestión de información nutricional.\"",
+        "features": [
+          "1. Sistema de registro e inicio de sesión.",
+          "2. Verificación de correo electrónico.",
+          "3. Autenticación mediante Supabase.",
+          "4. Calculadora metabólica con múltiples variables.",
+          "5. Selección de somatotipo.",
+          "6. Configuración de proteína por kilogramo.",
+          "7. Analizador de comidas mediante texto natural.",
+          "8. Base de datos estática de alimentos en JavaScript.",
+          "9. Visor de Calorías con historial.",
+          "10. Interfaz organizada por pestañas."
+        ],
+        "development": "El proyecto evolucionó desde una calculadora sencilla hasta una plataforma completa con múltiples módulos. El documento describe: \"Las primeras dos betas funcionaban principalmente como una calculadora sencilla... La cuarta beta presentó una diferencia considerable... se añadieron pestañas, una organización más clara... y una estética moderna.\" También se integró Supabase y se conectaron todas las herramientas.",
+        "challenges": [
+          "Búsqueda e integración de una base de datos de alimentos.",
+          "Elección del nombre MacroSync.",
+          "Reestructuración completa del proyecto entre versiones.",
+          "Diferencias creativas en el diseño del logo."
+        ],
+        "results": "Los estudiantes desarrollaron una plataforma funcional con autenticación, calculadora metabólica, analizador de comidas y visor de calorías. El documento afirma: \"El principal resultado fue la evolución de una idea inicial sencilla hacia una aplicación web con diferentes módulos y una estructura considerablemente más completa.\" También fortalecieron habilidades técnicas y de trabajo colaborativo."
       },
-      "links": { "repository": "", "demo": "https://myfitnesspal.misaeltech.com/" }
+      "links": {
+        "repository": "",
+        "demo": "https://myfitnesspal.misaeltech.com/"
+      }
     },
     {
       "id": "proyecto-publicado-2026-5",
@@ -100,22 +241,58 @@
       "year": 2026,
       "level": "Tecnico Programacion",
       "category": "Educativo",
-      "description": "",
-      "cover": "",
-      "gallery": [],
-      "technologies": [],
-      "students": [],
+      "description": "Parche Saber es un proyecto educativo orientado a facilitar el proceso de evaluación académica mediante actividades de repaso rápido, juegos de conocimiento y estrategias que ayudan a activar los aprendizajes previos de los estudiantes.",
+      "cover": "/Imagenes/Parche.jpeg",
+      "gallery": [
+        "/Imagenes/Parche_fot_01.jpeg",
+        "/Imagenes/Parche_fot_02.jpeg",
+        "/Imagenes/Parche_fot_03.jpeg",
+        "/Imagenes/Parche_fot_04.jpeg",
+        "/Imagenes/Parche_fot_05.jpeg",
+        "/Imagenes/Parche_fot_06.jpeg"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript", "Python"],
+      "students": [
+        "Alicia Gomez Contreras",
+        "Valerie Yulieth Becerra Mejía",
+        "Shantal Camila Rincón Solano",
+        "Sebastián Eduardo Martínez Parada",
+        "Sheisy Mishelle Cabrales Gutiérrez"
+      ],
       "documentation": {
-        "introduction": "",
-        "problem": "",
-        "objectives": [],
-        "solution": "",
-        "features": [],
-        "development": "",
-        "challenges": [],
-        "results": ""
+        "introduction": "Parche Saber es un proyecto educativo desarrollado por estudiantes de la Técnica en Programación de Software. Según el documento: \"Queremos ayudar a evaluar a los estudiantes de una manera fácil y sencilla, permitiendo que el proceso sea más ágil tanto para el docente como para el propio alumno.\"",
+        "problem": "Los estudiantes suelen presentar vacíos de memoria o confusión en conceptos clave al momento de una evaluación formal. El documento indica: \"Con frecuencia, los alumnos han trabajado los contenidos con anterioridad, pero al enfrentarse a una evaluación formal presentan vacíos de memoria...\"",
+        "objectives": [
+          "1) Mejorar el proceso de evaluación académica mediante estrategias que faciliten el repaso.",
+          "2) Diseñar un mecanismo práctico de repaso rápido para reforzar conceptos clave.",
+          "3) Reducir la ansiedad académica mediante actividades breves de activación de conocimientos previos.",
+          "4) Optimizar el proceso de evaluación para docentes y estudiantes."
+        ],
+        "solution": "La solución propuesta consiste en un juego educativo que permite repasar conceptos antes de una evaluación formal. El documento señala que la herramienta busca \"optimizar el tiempo, facilitar la revisión de contenidos y hacer que el proceso de evaluación sea más accesible y efectivo para todos.\"",
+        "features": [
+          "1. Juego de preguntas y respuestas.",
+          "2. Juego de acertijos.",
+          "3. Juego educativo de evaluación.",
+          "4. Actividades de repaso rápido.",
+          "5. Roles definidos dentro del equipo de desarrollo.",
+          "6. Metodología basada en SDLC.",
+          "7. Manual de usuario y manual técnico.",
+          "8. Cronograma de actividades."
+        ],
+        "development": "El proyecto se desarrolló siguiendo el ciclo de vida del software (SDLC). El documento menciona etapas como: \"Identificación de los problemas actuales, planificación, definición de requisitos, diseño y creación de prototipos, desarrollo, evaluación, despliegue y mantenimiento.\" También se realizó lluvia de ideas y preselección de conceptos para definir el enfoque del juego.",
+        "challenges": [
+          "Organizar ideas iniciales mediante lluvia de ideas.",
+          "Seleccionar el tipo de juego más adecuado para el objetivo educativo.",
+          "Definir roles dentro del equipo.",
+          "Aplicar correctamente las etapas del SDLC.",
+          "Diseñar actividades que reduzcan la ansiedad en evaluaciones."
+        ],
+        "results": "El proyecto logró crear una herramienta educativa útil para estudiantes y docentes. El documento afirma: \"El proyecto busca hacer que las evaluaciones sean más fáciles y rápidas, ayudando a los estudiantes a recordar mejor lo aprendido.\" También se fortalecieron habilidades de programación, diseño, organización y trabajo en equipo."
       },
-      "links": { "repository": "", "demo": "" }
+      "links": {
+        "repository": "",
+        "demo": ""
+      }
     },
     {
       "id": "proyecto-publicado-2026-6",
@@ -161,7 +338,10 @@
         "challenges": [],
         "results": ""
       },
-      "links": { "repository": "", "demo": "https://candybouguest.misaeltech.com/" }
+      "links": {
+        "repository": "",
+        "demo": "https://candybouguest.misaeltech.com/"
+      }
     },
     {
       "id": "proyecto-publicado-2026-8",
@@ -209,6 +389,5 @@
       },
       "links": { "repository": "", "demo": "" }
     }
-    
   ]
 }
