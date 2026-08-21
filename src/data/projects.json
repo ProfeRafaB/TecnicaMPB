@@ -2,13 +2,13 @@
   "projects": [
     {
       "id": "proyecto-por-publicar-2026",
-      "title": "Egglish: Aprende Inglish jugando",
+      "title": "Egglish: Aprende Ingles jugando",
       "year": 2026,
       "level": "Tecnico Programacion",
       "category": "Educativo",
       "description": "Egglish es una plataforma web educativa diseñada para hacer que el aprendizaje del inglés sea más dinámico, interactivo y motivador. A través de actividades de listening, writing, vocabulario y ejercicios multimedia, busca fortalecer las competencias lingüísticas de los estudiantes y complementar la enseñanza tradicional con herramientas digitales modernas.",
       "cover": "/Imagenes/Egglish.jpeg",
-      "gallery": ["/Imagenes/Egglish.jpeg", "/Imagenes/Egglish.jpeg", "/Imagenes/Egglish.jpeg", "/Imagenes/Egglish.jpeg"],
+      "gallery": ["/Imagenes/Egglish_fot_01.jpeg", "/Imagenes/Egglish_fot_02.jpeg", "/Imagenes/Egglish_fot_03.jpeg", "/Imagenes/Egglish_fot_04.jpeg", "/Imagenes/Egglish_fot_05.jpeg", "/Imagenes/Egglish_fot_06.jpeg"],
       "technologies": ["HTML","JavaScript", "Tailwind CSS", "Firebase Firestore", "Web Audio API"],
       "students": ["Yoimar Joseph Serrano cruz ", " Mariangel Hernández Minorta", " Evelyn Gisell Granados Vargas", "Karoll Nicoll Contreras Ortega", "Luis Santiago Galvis Santander"],
       "documentation": {
@@ -21,7 +21,7 @@
         "challenges": ["Durante el desarrollo de Egglish nos enfrentamos a varios retos, como configurar y sincronizar el audio web para que las prácticas de escucha funcionaran sin errores, conectar correctamente la aplicación con Firebase Firestore para gestionar el progreso de los usuarios en tiempo real, y estructurar la lógica en JavaScript vainilla y Tailwind CSS para lograr una navegación fluida, rápida y sin recargas en la arquitectura SPA.  "],
         "results": "Los estudiantes obtuvieron una mayor motivación e interés hacia el estudio del inglés al romper con la monotonía de los métodos tradicionales, mejoraron notablemente sus competencias de escucha (listening) mediante las herramientas de audio web, y lograron un avance constante y autónomo a su propio ritmo a través de las rutas de aprendizaje interactivo.  "
       },
-      "links": { "repository": "", "demo": "https://egglish.misaeltech.com/" }
+      "links": { "repository": "https://github.com/yoi-max-web/Egglish-.git", "demo": "https://egglish.misaeltech.com/" }
     },
     {
       "id": "proyecto-publicado-2026-2",
