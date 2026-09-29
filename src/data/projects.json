@@ -7,7 +7,7 @@
       "level": "Tecnico Programacion",
       "category": "Educativo",
       "description": "Egglish es una plataforma web educativa diseñada para hacer que el aprendizaje del inglés sea más dinámico, interactivo y motivador. A través de actividades de listening, writing, vocabulario y ejercicios multimedia, busca fortalecer las competencias lingüísticas de los estudiantes y complementar la enseñanza tradicional con herramientas digitales modernas.",
-      "cover": "/Imagenes/Egglish.jpeg",
+      "cover": "/Imagenes/Egglish.jpg",
       "gallery": [
         "/Imagenes/Egglish_fot_01.jpeg",
         "/Imagenes/Egglish_fot_02.jpeg",
@@ -175,18 +175,19 @@
     },
     {
       "id": "proyecto-publicado-2026-4",
-      "title": "MyFitness Pal: Aplicación de seguimiento de actividad física y nutrición",
+      "title": "MacroSync: Aplicación de seguimiento de actividad física y nutrición",
       "year": 2026,
       "level": "Tecnico Programacion",
       "category": "Salud y bienestar",
       "description": "MacroSync es una plataforma web desarrollada por estudiantes de la Técnica en Programación de Software, orientada al cálculo metabólico, análisis nutricional y seguimiento del consumo calórico mediante una interfaz organizada y moderna.",
-      "cover": "logo-macrosync.png",
+      "cover": "/Imagenes/MacroSync.jpeg",
       "gallery": [
-        "captura-calculadora-metabolica.png",
-        "captura-analizador-comidas.png",
-        "captura-visor-calorias.png",
-        "captura-interfaz-principal.png",
-        "captura-autenticacion-supabase.png"
+        "/Imagenes/MacroSync_fot_1.jpeg",
+        "/Imagenes/MacroSync_fot_2.jpeg",
+        "/Imagenes/MacroSync_fot_3.jpeg",
+        "/Imagenes/MacroSync_fot_4.jpeg",
+        "/Imagenes/MacroSync_fot_5.jpeg",
+        "/Imagenes/MacroSync_fot_6.jpeg"
       ],
       "technologies": ["HTML", "CSS", "JavaScript", "Supabase"],
       "students": [
@@ -231,7 +232,7 @@
         "results": "Los estudiantes desarrollaron una plataforma funcional con autenticación, calculadora metabólica, analizador de comidas y visor de calorías. El documento afirma: \"El principal resultado fue la evolución de una idea inicial sencilla hacia una aplicación web con diferentes módulos y una estructura considerablemente más completa.\" También fortalecieron habilidades técnicas y de trabajo colaborativo."
       },
       "links": {
-        "repository": "",
+        "repository": "https://github.com/Michael098765432109/proyecto.git",
         "demo": "https://myfitnesspal.misaeltech.com/"
       }
     },
@@ -345,49 +346,131 @@
     },
     {
       "id": "proyecto-publicado-2026-8",
-      "title": "Lests Go Catbling: Aplicacion de casino y apuestas en línea",
+      "title": "Let's Go Catbling: Plataforma educativa gamificada",
       "year": 2026,
       "level": "Tecnico Programacion",
       "category": "Educativo",
-      "description": "",
-      "cover": "",
-      "gallery": [],
-      "technologies": [],
-      "students": [],
+      "description": "Let's Go Catbling es una plataforma web educativa gamificada que convierte el repaso académico en una experiencia más dinámica y voluntaria. Integra preguntas con retroalimentación inmediata, una economía virtual de monedas, siete juegos de casino y una estética de pixel art retro arcade con temática felina.",
+      "cover": "/Imagenes/Catbling.jpeg",
+      "gallery": ["/Imagenes/Catbling_fot_1.jpeg", "/Imagenes/Catbling_fot_2.jpeg", "/Imagenes/Catbling_fot_3.jpeg", "/Imagenes/Catbling_fot_4.jpeg"],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Supabase (PostgreSQL)",
+        "Vercel",
+        "XAMPP con MySQL"
+      ],
+      "students": [
+        "Esaú Acelas Restrepo",
+        "Jhonatan Ramos Quiñones",
+        "Arlex Fabian Ayala Monsalve",
+        "Danna Valentina Martínez Jaimes",
+        "Yoliveth Yarima Bautista Mendoza",
+        "María José Galvis Osorio"
+      ],
       "documentation": {
-        "introduction": "",
-        "problem": "",
-        "objectives": [],
-        "solution": "",
-        "features": [],
-        "development": "",
-        "challenges": [],
-        "results": ""
+        "introduction": "Let's Go Catbling es una plataforma web educativa gamificada creada para hacer del repaso académico una experiencia más dinámica y voluntaria. A través de preguntas con retroalimentación inmediata, una economía virtual de monedas y siete juegos de casino, busca mantener la motivación y la práctica constante de los estudiantes. El proyecto complementa los métodos de refuerzo tradicionales con una estética de pixel art retro arcade de temática felina.",
+        "problem": "La práctica constante es necesaria para consolidar los conocimientos, pero los métodos tradicionales de refuerzo pueden resultar repetitivos y poco atractivos para algunos estudiantes. A esto se suma la falta de retroalimentación inmediata y de incentivos que estimulen la participación continua, lo que puede generar desinterés, baja frecuencia de práctica y dificultades para consolidar el aprendizaje.",
+        "objectives": [
+          "Implementar un sistema de actividades académicas organizado por nivel educativo, área de conocimiento y dificultad, con retroalimentación inmediata y recompensas según el desempeño.",
+          "Implementar una economía virtual que relacione el desempeño académico con la obtención, el uso y la administración de recursos.",
+          "Desarrollar actividades lúdicas que complementen la práctica académica y permitan obtener recursos mediante desafío, estrategia y progresión.",
+          "Implementar un sistema de recursos y potenciadores que el estudiante pueda administrar de forma estratégica.",
+          "Implementar mecanismos de gestión y persistencia del progreso, con acceso inicial, orientación y apoyo durante el uso de la plataforma."
+        ],
+        "solution": "Let's Go Catbling es una plataforma web que integra tres módulos: preguntas, casino y tienda, conectados por un mismo saldo de monedas. Cada resultado académico tiene una consecuencia dentro de la experiencia, creando un ciclo que estimula al estudiante a seguir practicando de forma autónoma y convierte el estudio en una actividad más interactiva y atractiva.",
+        "features": [
+          "Preguntas por nivel y dificultad, organizadas por nivel educativo, área y dificultad, con selección aleatoria, límite de tiempo y explicación después de cada respuesta.",
+          "Casino con siete juegos: carreras de caballos, ruleta, tragamonedas, duelo de dados, Cartas Retro, Casino Royale y Memoria.",
+          "Tienda e inventario con objetos y potenciadores de costo y utilidad definidos, que apoyan las actividades y requieren una administración estratégica.",
+          "Cuentas, persistencia y apoyo mediante inicio de sesión, conservación del progreso, tutoriales, ayudas contextuales, opciones de idioma y personalización.",
+          "Diseño responsive en gran parte de las páginas."
+        ],
+        "development": "El proyecto siguió una adaptación del ciclo de vida del software (SDLC) en cinco fases. En Brainstorm se generaron diez ideas y se preseleccionaron tres, eligiendo Apuestas. En Define se establecieron el concepto, los módulos, las reglas de las preguntas, las mecánicas del casino y el balance de la tienda. En Design se planificó la economía virtual y la identidad visual bajo el criterio educar mientras se juega. En Test se verificaron el contenido, las monedas, la tienda, la sincronización y la persistencia, corrigiendo errores. Finalmente, en Launch se migró la base de datos de XAMPP y MySQL a Supabase y se preparó el despliegue en Vercel.",
+        "challenges": [
+          "Sincronizar y actualizar las monedas en tiempo real entre todos los módulos.",
+          "Migrar la base de datos desde un entorno local con XAMPP y MySQL hacia Supabase sin perder la persistencia de los datos.",
+          "Garantizar la calidad de las preguntas y de sus explicaciones de retroalimentación.",
+          "Adaptar el diseño responsive a diferentes tamaños de pantalla."
+        ],
+        "results": "El equipo logró una plataforma funcional con actividades académicas, siete juegos de casino, tienda con potenciadores e inventario, gestión de cuentas y persistencia del progreso, cumpliendo los cinco objetivos específicos y las cinco fases metodológicas. La plataforma se encuentra disponible en línea y está en preparación para su publicación formal. Los resultados de la presentación, con las opiniones de quienes la prueben, aún deben incorporarse, y el proyecto todavía no ha demostrado un efecto sobre el aprendizaje."
       },
-      "links": { "repository": "", "demo": "" }
+      "links": { "repository": "https://github.com/jhonatanr-ctrl/catbling.git", "demo": "https://catbling.vercel.app/principalpage.html" }
     },
     {
       "id": "proyecto-publicado-2026-9",
-      "title": "Nasamark: Aplicacion de musica y entretenimiento para la comunidad estudiantil",
+      "title": "Nasamark: Plataforma de streaming de música con artistas, oyentes y transmisiones en vivo",
       "year": 2026,
       "level": "Tecnico Programacion",
-      "category": "Educativo",
-      "description": "",
-      "cover": "",
-      "gallery": [],
-      "technologies": [],
-      "students": [],
+      "category": "Música y entretenimiento",
+      "description": "NASAMARK es una plataforma web de streaming de música que conecta artistas independientes con oyentes. Permite publicar, descubrir y reproducir canciones y álbumes, crear playlists, interactuar mediante historias y participar en transmisiones en vivo con chat en tiempo real.",
+      "cover": "/Imagenes/Nasamark.jpeg",
+      "gallery": ["/Imagenes/Nasamark_fot_1.jpeg", "/Imagenes/Nasamark_fot_2.jpeg", "/Imagenes/Nasamark_fot_3.jpeg", "/Imagenes/Nasamark_fot_4.jpeg", "/Imagenes/Nasamark_fot_5.jpeg", "/Imagenes/Nasamark_fot_6.jpeg"],
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript vanilla",
+        "Node.js",
+        "Express 5",
+        "PostgreSQL",
+        "Supabase",
+        "Supabase Storage",
+        "JWT",
+        "Google Sign-In",
+        "Wompi",
+        "LiveKit",
+        "Resend / Brevo / SMTP",
+        "Playwright",
+        "Git y GitHub",
+        "Render"
+      ],
+      "students": [
+        "Sebastián David Machado Gómez",
+        "Nasari Pimienta Porras"
+      ],
       "documentation": {
-        "introduction": "",
-        "problem": "",
-        "objectives": [],
-        "solution": "",
-        "features": [],
-        "development": "",
-        "challenges": [],
-        "results": ""
+        "introduction": "NASAMARK es una plataforma web de streaming de música que conecta artistas independientes con oyentes, permitiendo la publicación, el descubrimiento y la reproducción de canciones y álbumes. También incorpora interacción en tiempo real mediante transmisiones en vivo y contenido efímero tipo historias. El proyecto integra un frontend en HTML, CSS y JavaScript con un backend en Node.js y Express, una base de datos PostgreSQL gestionada mediante Supabase y servicios externos para pagos, correo electrónico y transmisión de audio y video en vivo. La plataforma diferencia dos tipos de usuario: oyentes, que descubren y consumen música, y artistas, que publican contenido y hacen crecer su comunidad.",
+        "problem": "Los artistas independientes suelen enfrentar barreras de entrada altas en las plataformas de streaming dominantes, como la dificultad para destacar frente a catálogos masivos, la ausencia de canales de interacción directa con su audiencia y modelos de monetización poco accesibles. Por otro lado, los oyentes que buscan descubrir talento nuevo no siempre cuentan con espacios donde el descubrimiento, la interacción social y el consumo de música converjan en una sola experiencia. NASAMARK busca responder a esta necesidad con una plataforma centrada en el artista emergente.",
+        "objectives": [
+          "Desarrollar una plataforma web funcional de streaming musical para que los artistas publiquen y promocionen su contenido.",
+          "Permitir que los oyentes descubran, reproduzcan y organicen música mediante playlists.",
+          "Implementar un sistema de registro y autenticación diferenciado para oyentes y artistas, incluyendo inicio de sesión con Google.",
+          "Diseñar un backend con API REST para gestionar usuarios, canciones, álbumes y playlists.",
+          "Integrar PostgreSQL mediante Supabase para el almacenamiento persistente de la información.",
+          "Incorporar pagos y suscripciones para artistas mediante Wompi.",
+          "Implementar transmisiones en vivo y chat en tiempo real utilizando LiveKit.",
+          "Construir mecanismos de descubrimiento como el top global, canciones virales y artistas nuevos."
+        ],
+        "solution": "Se propuso construir NASAMARK como una aplicación web de una sola página conectada a una API REST propia. La solución separa el frontend del backend, con rutas modulares para usuarios, canciones, álbumes, playlists, pagos, historias y transmisiones. Supabase Storage gestiona los archivos de audio y las imágenes de portada, mientras PostgreSQL almacena los datos estructurados. La plataforma ofrece herramientas de descubrimiento, reproducción, interacción social, transmisiones en vivo y monetización para artistas.",
+        "features": [
+          "Registro y autenticación de dos tipos de cuenta: oyente y artista.",
+          "Inicio de sesión con Google.",
+          "Reproductor de música persistente con controles de reproducción, aleatorio y repetición.",
+          "Exploración por género, ranking global, canciones virales y artistas nuevos.",
+          "Creación y gestión de playlists propias y colaborativas.",
+          "Sistema de me gusta y no me interesa para personalizar recomendaciones.",
+          "Historias efímeras de imagen o video para artistas, con expiración de 24 horas.",
+          "Transmisiones en vivo con chat en tiempo real mediante LiveKit.",
+          "Suscripciones y pagos para artistas mediante Wompi, con verificación de firma de integridad.",
+          "Sistema de engagement que puede extender el periodo de prueba de los artistas.",
+          "Notificaciones por correo para verificación de cuenta y recuperación de contraseña."
+        ],
+        "development": "El desarrollo se organizó en un frontend estático y un backend Node.js con Express, estructurado en rutas independientes por recurso. La persistencia se implementó sobre PostgreSQL administrado mediante Supabase, que también proporciona el almacenamiento de canciones y portadas. LiveKit se integró para las transmisiones en vivo y el chat, generando tokens de acceso desde el backend con un tiempo de vida controlado. Los pagos y suscripciones se gestionan con Wompi, validando las transacciones mediante firma de integridad y un webhook para confirmar los pagos aprobados. El proyecto se versionó con Git y se desplegó en Render.",
+        "challenges": [
+          "Diseñar un flujo de autenticación diferenciado para oyentes y artistas sin duplicar la lógica del backend.",
+          "Integrar de forma segura Wompi, incluyendo firmas de integridad y validación de webhooks.",
+          "Sincronizar el estado de las transmisiones en vivo con LiveKit y limpiar transmisiones huérfanas.",
+          "Gestionar el almacenamiento y la referencia de archivos de audio e imágenes mediante Supabase Storage.",
+          "Configurar el envío confiable de correos transaccionales con distintos proveedores.",
+          "Calcular un puntaje de engagement que determine de forma justa la extensión del periodo de prueba de los artistas."
+        ],
+        "results": "Se construyó y desplegó una plataforma funcional de streaming musical con una separación clara entre frontend y backend, un modelo de datos relacional coherente e integración con Supabase, Wompi, LiveKit y proveedores de correo. El equipo adquirió experiencia práctica en el diseño de APIs REST con Express, el modelado de bases de datos PostgreSQL, la integración de pagos, la comunicación en tiempo real mediante LiveKit y el despliegue de una aplicación full-stack en producción."
       },
-      "links": { "repository": "", "demo": "" }
+      "links": {
+        "repository": "https://github.com/machadodeiwinson-netizen/nasamark-0.3-loby",
+        "demo": "https://nasamark.misaeltech.com/"
+      }
     }
   ]
 }

@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import data from "../data/projects.json";
+import ProjectEngagement from "./ProjectEngagement";
 
 const sections = [
   ["introduction", "Introducción"],
@@ -141,6 +142,10 @@ export default function ProjectDocumentation() {
               </a>
             )}
           </div>
+          <ProjectEngagement
+            projectId={project.id}
+            title={project.title}
+          />
         </article>
       </div>
       {image !== null && (

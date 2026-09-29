@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { motion } from "motion/react";
+import { motion as Motion } from "motion/react";
 import {
   ArrowUpRight,
   CodeXml,
@@ -23,14 +23,14 @@ const reveal = {
 };
 function Heading({ index, kicker, title, text }) {
   return (
-    <motion.div {...reveal} className="section-heading">
+    <Motion.div {...reveal} className="section-heading">
       <p className="eyebrow">
         <span />
         {index} — {kicker}
       </p>
       <h2>{title}</h2>
       {text && <p>{text}</p>}
-    </motion.div>
+    </Motion.div>
   );
 }
 function Placeholder({ label }) {
@@ -59,7 +59,7 @@ export default function TechSections() {
             }
             text="Un espacio para descubrir, crear y desarrollar soluciones tecnológicas con propósito."
           />
-          <motion.div {...reveal} className="about-panel">
+          <Motion.div {...reveal} className="about-panel">
             <p className="panel-number">// 01</p>
             <h3>Formación en movimiento.</h3>
             <p>
@@ -79,7 +79,7 @@ export default function TechSections() {
                 <b>por registrar</b>
               </span>
             </div>
-          </motion.div>
+          </Motion.div>
         </div>
       </section>
       <section className="section">
@@ -98,7 +98,7 @@ export default function TechSections() {
             {areas.map(([n, title, text], i) => {
               const Icon = icons[i];
               return (
-                <motion.article
+                <Motion.article
                   {...reveal}
                   transition={{ delay: i * 0.05 }}
                   className="area-card"
@@ -108,7 +108,7 @@ export default function TechSections() {
                   <Icon size={25} />
                   <h3>{title}</h3>
                   <p>{text}</p>
-                </motion.article>
+                </Motion.article>
               );
             })}
           </div>
@@ -165,7 +165,7 @@ export default function TechSections() {
           />
           <div className="teacher-grid">
             {teachers.map((teacher, i) => (
-              <motion.article
+              <Motion.article
                 {...reveal}
                 transition={{ delay: i * 0.1 }}
                 className="teacher-card"
@@ -190,9 +190,8 @@ export default function TechSections() {
                   <span>{teacher.role}</span>
                   <h3>{teacher.name}</h3>
                   <p>{teacher.bio}</p>
-                  
                 </div>
-              </motion.article>
+              </Motion.article>
             ))}
           </div>
         </div>
@@ -235,7 +234,7 @@ export default function TechSections() {
           />
           <div className="timeline">
             {timeline.map((item, i) => (
-              <motion.article
+              <Motion.article
                 {...reveal}
                 transition={{ delay: i * 0.1 }}
                 key={item.title}
@@ -246,7 +245,7 @@ export default function TechSections() {
                   <h3>{item.title}</h3>
                   <p>{item.text}</p>
                 </div>
-              </motion.article>
+              </Motion.article>
             ))}
           </div>
         </div>

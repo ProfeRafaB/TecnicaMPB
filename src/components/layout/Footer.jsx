@@ -1,4 +1,5 @@
 import { ArrowUpRight, Code2 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const links = [['Inicio', '#inicio'], ['La técnica', '#tecnica'], ['Proyectos', '#proyectos'], ['Momentos', '#momentos'], ['Estudiantes', '#estudiantes'], ['Contacto', '#contacto']];
 
@@ -22,5 +23,6 @@ export default function Footer() {
       </div>
     </div>
     <div className="footer-bottom"><span>© {new Date().getFullYear()} · I.E. Misael Pastrana Borrero</span><span>DESIGNED FOR FUTURE BUILDERS <i /></span></div>
+    <Link to="/resultados" className="footer-cta">Revisar resultados <ArrowUpRight size={15} /></Link>
   </footer>;
 }

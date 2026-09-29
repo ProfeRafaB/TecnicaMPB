@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { ArrowUpRight, FileText } from "lucide-react";
-import { motion } from "motion/react";
+import { motion as Motion } from "motion/react";
 import { Link } from "react-router-dom";
 import data from "../../data/projects.json";
 
@@ -49,7 +49,7 @@ function ProjectFilters({ years, categories, filters, setFilters }) {
 }
 function ProjectCard({ project, index }) {
   return (
-    <motion.article
+    <Motion.article
       {...reveal}
       transition={{ duration: 0.5, delay: index * 0.07 }}
       className="archive-card"
@@ -88,12 +88,12 @@ function ProjectCard({ project, index }) {
           )}
         </div>
       </div>
-    </motion.article>
+    </Motion.article>
   );
 }
 export default function ProjectsArchive() {
   const [filters, setFilters] = useState({ year: "Todos", category: "Todos" });
-  const projects = data.projects || [];
+  const projects = useMemo(() => data.projects || [], []);
   const years = useMemo(
     () =>
       [...new Set(projects.map((p) => String(p.year)).filter(Boolean))].sort(
@@ -113,7 +113,7 @@ export default function ProjectsArchive() {
   return (
     <section id="proyectos" className="section section-alt">
       <div className="section-container">
-        <motion.div {...reveal} className="archive-heading">
+        <Motion.div {...reveal} className="archive-heading">
           <p className="eyebrow">
             <span />
             04 / PROJECT ARCHIVE
@@ -125,18 +125,18 @@ export default function ProjectsArchive() {
             Una colección de proyectos creados por los estudiantes de la Técnica
             en Programación de Software.
           </p>
-        </motion.div>
+        </Motion.div>
         <ProjectFilters
           years={years}
           categories={categories}
           filters={filters}
           setFilters={setFilters}
         />
-        <motion.div layout className="archive-grid">
+        <Motion.div layout className="archive-grid">
           {visible.map((project, index) => (
             <ProjectCard key={project.id} project={project} index={index} />
           ))}
-        </motion.div>
+        </Motion.div>
         {!visible.length && (
           <p className="archive-empty">No hay proyectos con estos filtros.</p>
         )}
